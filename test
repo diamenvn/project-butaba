@@ -1,0 +1,20 @@
+<div className="nav navbar-header flex">
+  <div className="sidebar-width sidebar-pd center sidebar-bg-hover">
+    BUTABA.COM
+  </div>
+  <div className="navbar-header-menu flex">
+    <div className="navbar-header-menu-item btn-sidebar">
+      <i className="fas fa-bars"></i>
+    </div>
+    <div className="navbar-header-menu-item">
+      <div>Hạn dùng: 14/09/2019</div>
+      <div>Gói dịch vụ: <span className="bold">Gói doanh nghiệp</span></div>
+    </div>
+    <div className="navbar-header-right">
+      <div className="navbar-header-user flex">
+        <img src="https://abitstore.vn/assets/img/user.png" alt="" />
+        <div className="centerVer">Onion9x</div>
+      </div>
+    </div>
+  </div>
+</div>

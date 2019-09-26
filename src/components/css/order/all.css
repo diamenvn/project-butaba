@@ -1,0 +1,164 @@
+.sidebar-right {
+  width: 250px;
+  min-width: 250px;
+  height: calc(100vh - 50px);
+  border-left: 1px solid #ccc;
+  background-color: #fff
+}
+
+.sidebar-right-header {
+  width: 100%;
+  background-color: #4bac51;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.sidebar-right-header div {
+  padding: 18px 7px;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+}
+
+.sidebar-right-container {
+  height: calc(100vh - 110px);
+  max-height: 50%;
+  overflow: auto
+}
+
+.mr-right-10 {
+  margin-right: 10px;
+}
+
+.main-content {
+  padding: 15px 30px 0px 20px;
+  /* background: linear-gradient(0deg,#EEEEEE 0%,#dbdbdb 100%) */
+}
+
+.title-step {
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 3px;
+  color: #795548;
+  font-size: 16px;
+  font-weight: 600
+}
+
+.area-list-order {
+  padding-top: 20px;
+  clear: both;
+}
+
+.bt-row-heading {
+
+}
+
+.bt-table-list-order {
+  overflow: hidden;
+}
+
+table {
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table, th, td {
+  border: none;
+}
+
+thead tr {
+  background: linear-gradient(#eeeeef 50%,#e9e9e9 0);;
+  line-height: 40px;
+  height: 40px;
+  text-align: left;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+tbody tr {
+  background-color: #fff;
+}
+
+tbody tr td {
+  padding: 20px 0px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+
+.sidebar-right-title {
+  font-size: 12px;
+  color: #4b4f56;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 6px;
+  background: linear-gradient(#eeeeef 50%,#e9e9e9 0);
+  border: 1px solid #ccc;
+  border-bottom: 0;
+}
+
+.sidebar-right-content {
+  padding: 0px;
+  font-size: 17px;
+}
+
+.sidebar-right-content input {
+  margin-top: 2px;
+  margin-right: 10px;
+}
+
+.sortdata-card:not(:first-child):not(:last-child) {
+  padding: 0px 5px;
+}
+
+.sortdata-card:first-child {
+  padding-right: 5px;
+}
+.sortdata-card:last-child {
+  padding-left: 5px;
+}
+
+.sortdata-content {
+  padding: 15px 0px;
+}
+
+.sortdata-height {
+  height: 230px;
+  min-height: 230px;
+}
+
+.sortdata-card-body {
+  min-height: 190px;
+  height: 190px;
+  overflow: auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sortdata-card-body .col-5 {
+  text-align: left;
+}
+
+.pd-left-5 {
+  padding-left: 5px;
+}
+
+.pd-horizontal-20 {
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+
+.input {
+  background-color: #fff;
+}
+
+.line {
+  padding: 15px 10px;
+  border-bottom: 1px dashed #ddd;
+}
+
+.sales-name {
+  color: #0084D1;
+}

@@ -1,0 +1,168 @@
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.navbar-header {
+  background: #fff;
+  color: #868686;
+  width: 100%;
+  height: 50px;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.1)!important
+}
+
+.sidebar {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  height: calc(100vh - 50px);
+  float: left;
+}
+
+.sidebar-item {
+  padding: 15px 0px;
+  box-sizing: border-box;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+}
+
+.sidebar-item div {
+  margin-top: 5px;
+  text-transform: initial
+}
+
+
+.sidebar-item i {
+  font-size: 28px;
+}
+
+.sidebar-item:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.sidebar-width {
+  width: 80px;
+  min-width: 80px;
+}
+
+.header-pd {
+  padding: 11px 0px;
+}
+
+.sidebar-bg {
+  background: linear-gradient(45deg,#33505e 0%,#4CAF50 100%);
+}
+
+.sidebar-bg-hover {
+  background-color: #2da993;
+}
+
+.navbar-header-menu {
+  font-size: 12px;
+  box-sizing: border-box;
+  width: 100%;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.1)!important
+}
+
+.navbar-header-menu-item {
+  padding: 4px 8px;
+}
+
+.navbar-header-menu-item div {
+  padding: 3px 0px;
+}
+
+.navbar-header-right {
+  margin-left: auto;
+  line-height: 50px;
+}
+
+.btn-sidebar {
+  align-self: center;
+  font-size: 16px;
+  cursor: pointer;
+  user-select: none;
+  margin: 0px 6px;
+}
+
+.btn-sidebar:hover {
+  background-color: #2da993;
+}
+
+.main-bg {
+  background: #eee;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-header-user {
+  padding: 0px 10px;
+  font-size: 17px
+}
+
+.navbar-header-user:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-header-user i {
+  color: #269c71
+}
+
+.centerVer {
+  align-self: center;
+}
+
+.widget-logo {
+  height: 50px;
+  line-height: 50px;
+  background-color: #e5e5e5;
+}
+
+.text-logo {
+  font-size: 16px;
+  color: white;
+}
+
+#logo {
+  background-image: url('https://vtask.net/img/vtask-logo-app.png');
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  align-self: center
+}
+
+.main {
+  box-sizing: border-box;
+  height: calc(100vh - 50px);
+  width: calc(100% - 80px);
+  overflow: auto;
+}
+
+.notification {
+  font-size: 21px;
+  padding: 0px 15px;
+}
+
+.name {
+  font-size: 14px !important;
+  margin-left: 5px;
+}
+
+.text-upcase {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #269c71
+}
+
+.main::-webkit-scrollbar-track{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
